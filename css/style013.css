@@ -1,0 +1,197 @@
+/*-------- CSS Reset -------*/
+
+*{
+padding:0;
+margin:0;
+font-size:100%;
+line-height:1em;
+}
+
+body{
+  width:80%;
+  max-width: 700px;
+  margin: auto;
+  background: #EDEDED;
+  color:#363636;
+  Font-family: 'Futura', serif;
+
+}
+  /*---------- Typography ------------*/
+
+  h1,h2,h3,h4 {normal;
+      font-weight: normal;
+      color:#393D3F;
+      text-align: center;
+    }
+
+    p {font-family: 'Futura', sans-serif;
+  color: #363636;
+text-align: center;
+line-height:20px;
+text-align: justify;
+}
+
+    h1 {font-size: 12em;
+      text-align: center;
+      font-weight: bold;
+    }
+    h2 {font-size: 2em;
+    font-family: 'Futura', sans-serif;
+    color: #363636;
+    font-weight: bold;
+    padding-top: 2em;
+    }
+    h3 {font-size: 3em;
+        margin-bottom: 1.5em;
+      text-align: center;
+    font-weight: bold;}
+
+        /*---------style links------*/
+        a{
+          color: #8F0040
+          text-decoration: none;
+        }
+        a:hover{
+          color:chocolate;
+          border-bottom: none;
+        }
+        /*--------image--------*/
+        img {
+          display: block;
+          margin: 3em auto;
+          padding: 0;
+          max-width: 100%;}
+
+        #picture-1 {
+          padding-top:5em;
+        }
+
+
+
+        /*------------------- NAVIGATION ------------------*/
+        nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            margin: 0;
+            width: 100%;
+            background-color: #363636;
+            padding: 1.5em 0;
+            font-size: 1.5em;
+            box-shadow: 0 0 10px 0 black;
+              border-bottom: 3px solid red;
+
+        }
+
+        nav ul {
+            text-align: center;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        nav ul li {
+            display:inline;
+            margin: 20px;
+            background: none;
+        }
+
+        nav a:link {
+            color: #f44e62;
+            text-decoration: none;
+        }
+
+        nav a:visited {
+            color: #fafafa;
+        }
+
+        nav a:hover {
+            border-bottom: none;
+            color: #f44e62;
+            transition: all 0.3s ease-in-out;}
+
+        section{ background-color: #EDEDED;
+        color: #363636;
+        width:100%;
+        max-width: 670px;
+        margin: auto;
+        padding: 5em 0;
+        border-bottom: 4px solid #363636;
+}
+#his-work{
+  border-bottom: none;
+}
+
+#question {
+  padding-top: 2em;
+  padding-bottom: 2em;
+text-align: center;}
+#saul-bass {
+  padding-top: 7em;
+  padding-bottom: 5em;
+
+}
+/*---------header----------*/
+#header {
+background: black url(images/saul_bass.jpg) center no-repeat;
+}
+
+
+
+          /*--------adding Flex--------*/
+
+          article {display:flex;
+          padding-right: 1em;}
+
+          .main {flex: 3;
+          padding-right: 1em;}
+
+          aside {flex: 1;
+          font-size: 0.75em;
+         font-style:italic;
+         border-left: 1px solid #333;
+         padding-left: 1em;
+         }
+
+
+#background .flex-container{
+  display: flex;
+}
+#background .flex-item {
+  flex-wrap: wrap;
+  text
+}
+#background p{
+  text-align: justify;
+}
+#career .flex-container{
+  display: flex;
+}
+#career .flex-item {
+  flex-wrap: wrap;
+  text
+}
+#career p{
+  text-align:justify;
+}
+#his-work .flex-container{
+  display: flex;
+}
+#his-work .flex-item {
+  flex-wrap: wrap;
+  text
+}
+#his-work p{
+  text-align:justify;
+}
+
+         /*---------footer
+         footer {
+             text-align: center;
+             font-size: 0.707em;
+             padding: 2em 0 4em 0;
+             background-color: #363636;
+             bottom: 0;
+             left: 0;
+             margin: 0;
+             width: 100%; -------*/
+         }
